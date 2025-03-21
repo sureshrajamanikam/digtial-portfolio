@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e2ddd3;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #f8f5ed;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27be7f;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn {
+    background: #27be7f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+
+.hero-text {
+    max-width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-text h1 span {
+    color: #27be7f;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn-outline {
+    border: 2px solid #27be7f;
+    color:  #27be7f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.hero-image img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a img {
+    width: 30px;
+    margin-right: 10px;
+}
+.about, .portfolio, .blog, .contact {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.about img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.blog-posts .post {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+}
+.about-content .text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.resume button {
+    width: 50%;  /* Width is 70% of the parent container */
+    background-color: #27be7f;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    left: 200px;
+}
+
+.resume button:hover {
+    background-color: #27be7f; /* Darker purple when hovered */
+
+
+}
+
+.resume h2 {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.section {
+    padding: 100px 10%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
